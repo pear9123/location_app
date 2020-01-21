@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // 오늘 날짜
+        // 깃 테스트
         SimpleDateFormat sdf = new SimpleDateFormat("YYYY-MM-dd");
         String nowDate = sdf.format(new Date());
         TextView textView = (TextView)findViewById(R.id.textView);
